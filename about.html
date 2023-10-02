@@ -14,7 +14,7 @@
             <img src="./imagess/Group 31.svg" alt="" class="pt-[30px] ">
             <p class="pt-[50px] text-white pl-[4px]">NONSY LOGISTICS</p>
         </div>
-        <button class="flex p-2 lg:hidden text-white hamburger sm:mx-[25px]">
+        <button class="flex p-2 lg:hidden text-white hamburger" id="ham" onclick="toggleMenu()">
             <i class="fa fa-bars" id="ham"></i>
         </button>
         <nav class="nav-link hidden lg:flex">
@@ -29,6 +29,17 @@
             <a href=""><button class="text-xs text-white mt-[20px] bg  xl:py-2 xl:px-3 xl:ml-[7px] lg:py-[3px] lg:px-[20px] ">Sign In</button></a>
            </div>
         </nav>
+
+        <div class="mobile-menu" id="mob-menu">
+            <a href="" class=" mobile-navs ">Home</a>
+            <a href="./about.html" class="mobile-navs ">About Us</a>
+            <a href="" class=" mobile-navs ">Services</a>
+            <a href="" class=" mobile-navs ">Jobs</a>
+            <a href="" class="mobile-navs ">News</a>
+            <a href="./contact.html" class="mobile-navs ">Contacts</a>
+            <a href="" class="mobile-navs "><button class="">Sign Up</button></a>
+            <a href="" class="mobile-navs "><button class="">Sign In</button></a>
+        </div>
     </header>
     <main>
         <section class="nn my-[70px] md:ml-[50px] md:mr-[50px] sm:mx-[20px]">
@@ -55,5 +66,6 @@
             </div>       
         </section>
     </main>
+    <script src="about.js"></script>
 </body>
 </html>
