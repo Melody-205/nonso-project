@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #101F2B;
+  }
+  .ab {
+    color: #F4AA41;
+}
+.nn {
+    background-color: #fb842c;
+    border-radius: 20px;
+}
+.bg {
+    border-radius: 9px;
+    background-color: #F4AA41;
+}
+.bg-o {
+    border-radius: 9px;
+    background-color: #0D1922;
+}
